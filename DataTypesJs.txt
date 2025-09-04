@@ -1,0 +1,98 @@
+                                        Datatypes
+
+In general variables hold values and every value has a specific data type that defines the kind of information it holds. Two types of data types are Primitive Data Types and Non-Primitive Data Types.
+
+Primitive Data Types
+Primitive data types represent single values, categorized as number, string, undefined, null, boolean, BigInt, Symbol
+
+
+Number:
+    Number data types hold decimal values as well as values without decimals.
+    Example: 
+    let price = 250;
+    let size = 50.5;
+    console.log("price of the shoe" + price );
+    console.log("size of the shoe" + size );
+    Output
+    price of the shoe =250
+    size of the shoe =50.5
+
+String:
+    The string data type is for sequences of characters surrounded by single or double quotes.
+    Example: 
+    let WelcomeNote = 'This is my first blog';
+    console.log("Hello All," + WelcomeNote );
+    Output
+        Hello All This is my first blog
+
+Undefined:
+    This means that a variable has been declared but has not been assigned a value, or it has been explicitly set to the value `undefined`.
+    Example: 
+    let x;
+    console.log(x); // undefined output
+Boolean:
+    The boolean data type can accept only two values i.e. true and false, used for conditional operations.
+Null:
+    This data type can hold only one possible value that is null
+    Example: 
+    let x = null;
+    console.log("Value of x=" + x);
+    Output
+    Value of x=null
+BigInt:
+    BigInt is a new datatype that can be used to store integer values that are too big to be represented by a normal JavaScript Number. The number is specified by writing 'n' at the end of the value
+    Example: Below is an example.
+    let bigNum = 123455555555555555555555555555n;
+    console.log(bigNum);
+
+
+    Output
+    123455555555555555555555555555n
+
+
+Symbol:
+
+    Symbol data type is used to create objects which will always be unique. These objects can be created using the Symbol constructor.
+    Example: 
+    let sym = Symbol("NewSymbol")
+    console.log(typeof(sym));
+    console.log(sym);
+
+
+    Output
+    symbol
+    Symbol(NewSymbol)
+
+
+
+Non primitive Datatypes
+
+These are reference types, are objects and derived data types, can store collections of values or more complex entities. Two types are Objects and Arrays.
+
+Objects
+    An object used to store related data collections. It stores data as key-value pairs, where each key is a unique identifier for the associated value. Objects are dynamic, which means the properties can be added, modified, or deleted at runtime. 
+    Example:
+    let NewObj = {
+        name: "Suba",
+        age: 23,
+        job: "Developer"
+    };
+    console.log(NewObj);
+
+    Output:
+    { name: 'Suba', age: 23, job: 'Developer' }
+
+Array:
+    The Array object, enables storing a collection of multiple items under a single variable name
+
+    Example:
+    let numbers = [10, 30, 40, 60, 80]
+    console.log(numbers[0]); 
+    console.log(numbers[2]);
+
+    Output:
+    10
+    40
+
+
+Thankyou
