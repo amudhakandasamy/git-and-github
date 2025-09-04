@@ -1,1 +1,1 @@
-DataTypes in Javascript 
+This is my first blog about DataTypes in Javascript 
